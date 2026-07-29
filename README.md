@@ -25,4 +25,11 @@ Ranking layer: XGBoost ranker with similarity, novelty bonus, time-since-last-pl
 Diversity post-processing: Use a simple diversity constraint (e.g., MMR or a DPP library)
 Offline evaluation: Compute Recall@k, NDCG, catalog coverage on held-out data
 
-Deliverable: A playlist generator that shows "what a less conservative algorithm would recommend" without you ever listening to anything ne
+Deliverable: A playlist generator that shows "what a less conservative algorithm would recommend" without you ever listening to anything new
+
+
+#first deliverable
+
+- deepseek has the instructions for how i can track my own youtube data
+
+  
