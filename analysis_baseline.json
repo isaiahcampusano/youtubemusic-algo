@@ -1,0 +1,2141 @@
+{
+  "source_csv": "data/public/listening_events.csv",
+  "time_basis": "relative elapsed time reconstructed from seconds_since_previous",
+  "session_definition": "A new session starts when the preceding gap exceeds 30 minutes.",
+  "schema": [
+    "event_index",
+    "relative_day",
+    "seconds_since_previous",
+    "hour_utc",
+    "weekday_utc",
+    "video_id",
+    "track_title",
+    "channel_name",
+    "in_music_library"
+  ],
+  "data_summary": {
+    "total_plays": 1916,
+    "unique_tracks": 835
+  },
+  "repetition_rate": {
+    "definition": "total plays divided by total unique tracks",
+    "plays_per_unique_track": 2.2946
+  },
+  "repeat_gaps": {
+    "tracks_with_repeats": 232,
+    "repeat_gap_observations": 1081,
+    "overall_average_hours": 804.8252,
+    "overall_average_days": 33.5344,
+    "median_gap_hours": 142.9256,
+    "per_track": [
+      {
+        "track_id": "s1F7CVT0I7E",
+        "track_title": "010 (edit)",
+        "channel_name": "Lexcorp",
+        "play_count": 41,
+        "repeat_gap_count": 40,
+        "average_gap_hours": 251.0679,
+        "average_gap_days": 10.4612
+      },
+      {
+        "track_id": "3wj2FT4qzsM",
+        "track_title": "dream pad edit",
+        "channel_name": "Lexcorp",
+        "play_count": 36,
+        "repeat_gap_count": 35,
+        "average_gap_hours": 291.6968,
+        "average_gap_days": 12.154
+      },
+      {
+        "track_id": "8cQB1hlfDRk",
+        "track_title": "Track 7",
+        "channel_name": "Lexcorp",
+        "play_count": 33,
+        "repeat_gap_count": 32,
+        "average_gap_hours": 313.8387,
+        "average_gap_days": 13.0766
+      },
+      {
+        "track_id": "4BzWL4pHm78",
+        "track_title": "American Palace",
+        "channel_name": "Lexcorp",
+        "play_count": 32,
+        "repeat_gap_count": 31,
+        "average_gap_hours": 323.9596,
+        "average_gap_days": 13.4983
+      },
+      {
+        "track_id": "rVHnfYAACgA",
+        "track_title": "Your Obituary",
+        "channel_name": "1791",
+        "play_count": 31,
+        "repeat_gap_count": 30,
+        "average_gap_hours": 334.7631,
+        "average_gap_days": 13.9485
+      },
+      {
+        "track_id": "3tJ_PV_9ETo",
+        "track_title": "Track 10",
+        "channel_name": "Lexcorp",
+        "play_count": 30,
+        "repeat_gap_count": 29,
+        "average_gap_hours": 345.4167,
+        "average_gap_days": 14.3924
+      },
+      {
+        "track_id": "D0vWiR9RD6w",
+        "track_title": "Track 6",
+        "channel_name": "Lexcorp",
+        "play_count": 30,
+        "repeat_gap_count": 29,
+        "average_gap_hours": 647.5091,
+        "average_gap_days": 26.9795
+      },
+      {
+        "track_id": "eERxMmksUDY",
+        "track_title": "Track 8",
+        "channel_name": "Lexcorp",
+        "play_count": 28,
+        "repeat_gap_count": 27,
+        "average_gap_hours": 371.9578,
+        "average_gap_days": 15.4982
+      },
+      {
+        "track_id": "M4eQ1F3jBa8",
+        "track_title": "1700",
+        "channel_name": "Lexcorp",
+        "play_count": 26,
+        "repeat_gap_count": 25,
+        "average_gap_hours": 401.7109,
+        "average_gap_days": 16.738
+      },
+      {
+        "track_id": "q86g1aop6a8",
+        "track_title": "Aphex Twin - Stone In Focus",
+        "channel_name": "Jack Assir",
+        "play_count": 24,
+        "repeat_gap_count": 23,
+        "average_gap_hours": 403.0824,
+        "average_gap_days": 16.7951
+      },
+      {
+        "track_id": "YJQfUvBPqtw",
+        "track_title": "The Gentle Hum of Anxiety (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 21,
+        "repeat_gap_count": 20,
+        "average_gap_hours": 387.1339,
+        "average_gap_days": 16.1306
+      },
+      {
+        "track_id": "uNCGM7FJ8wQ",
+        "track_title": "Alpha",
+        "channel_name": "Daniel Rosenfeld - Topic",
+        "play_count": 21,
+        "repeat_gap_count": 20,
+        "average_gap_hours": 134.3851,
+        "average_gap_days": 5.5994
+      },
+      {
+        "track_id": "vx7S3v7u7jY",
+        "track_title": "Fission",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 20,
+        "repeat_gap_count": 19,
+        "average_gap_hours": 482.4504,
+        "average_gap_days": 20.1021
+      },
+      {
+        "track_id": "uPp2n5cFC68",
+        "track_title": "alvedon - retire (final) (slowed + reverb)",
+        "channel_name": "drown in fog",
+        "play_count": 19,
+        "repeat_gap_count": 18,
+        "average_gap_hours": 457.5772,
+        "average_gap_days": 19.0657
+      },
+      {
+        "track_id": "b0d8sSmZqzs",
+        "track_title": "Trinity",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 18,
+        "repeat_gap_count": 17,
+        "average_gap_hours": 537.8108,
+        "average_gap_days": 22.4088
+      },
+      {
+        "track_id": "Pswx6OQp1Ks",
+        "track_title": "Destroyer Of Worlds",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 17,
+        "repeat_gap_count": 16,
+        "average_gap_hours": 546.4658,
+        "average_gap_days": 22.7694
+      },
+      {
+        "track_id": "8TLR-TTXDY8",
+        "track_title": "Quantum Mechanics",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 16,
+        "repeat_gap_count": 15,
+        "average_gap_hours": 622.8151,
+        "average_gap_days": 25.9506
+      },
+      {
+        "track_id": "oOhpTxcUxy0",
+        "track_title": "Ground Zero",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 15,
+        "repeat_gap_count": 14,
+        "average_gap_hours": 607.6672,
+        "average_gap_days": 25.3195
+      },
+      {
+        "track_id": "VBCr6UVacz8",
+        "track_title": "Power Stays In The Shadows",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 14,
+        "repeat_gap_count": 13,
+        "average_gap_hours": 654.3964,
+        "average_gap_days": 27.2665
+      },
+      {
+        "track_id": "lnIOHXLdniM",
+        "track_title": "medasin - magic (slowed + reverb with paulstretch)",
+        "channel_name": "drown in fog",
+        "play_count": 14,
+        "repeat_gap_count": 13,
+        "average_gap_hours": 625.8419,
+        "average_gap_days": 26.0767
+      },
+      {
+        "track_id": "oGyQwSwMI94",
+        "track_title": "Gravity Swallows Light",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 14,
+        "repeat_gap_count": 13,
+        "average_gap_hours": 654.3785,
+        "average_gap_days": 27.2658
+      },
+      {
+        "track_id": "p0UTjSiXNp0",
+        "track_title": "Quiet and Falling",
+        "channel_name": "Lena Raine - Topic",
+        "play_count": 14,
+        "repeat_gap_count": 13,
+        "average_gap_hours": 91.7095,
+        "average_gap_days": 3.8212
+      },
+      {
+        "track_id": "uADCo0308Kk",
+        "track_title": "Colonel Pash",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 14,
+        "repeat_gap_count": 13,
+        "average_gap_hours": 654.4386,
+        "average_gap_days": 27.2683
+      },
+      {
+        "track_id": "Nsv07AuY9k0",
+        "track_title": "Radiohead - Everything In Its Right Place (slowed instrumental)",
+        "channel_name": "picture.",
+        "play_count": 13,
+        "repeat_gap_count": 12,
+        "average_gap_hours": 525.5513,
+        "average_gap_days": 21.898
+      },
+      {
+        "track_id": "OqY3kbQEMZI",
+        "track_title": "Something More Important",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 13,
+        "repeat_gap_count": 12,
+        "average_gap_hours": 704.8599,
+        "average_gap_days": 29.3692
+      },
+      {
+        "track_id": "9ytiyD_QA2s",
+        "track_title": "magic",
+        "channel_name": "Medasin - Topic",
+        "play_count": 12,
+        "repeat_gap_count": 11,
+        "average_gap_hours": 775.87,
+        "average_gap_days": 32.3279
+      },
+      {
+        "track_id": "FGCdurLEgsk",
+        "track_title": "Kitty Comes To Testify",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 12,
+        "repeat_gap_count": 11,
+        "average_gap_hours": 773.2837,
+        "average_gap_days": 32.2202
+      },
+      {
+        "track_id": "LtmFUgI6zEE",
+        "track_title": "Dr. Hill",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 12,
+        "repeat_gap_count": 11,
+        "average_gap_hours": 773.411,
+        "average_gap_days": 32.2255
+      },
+      {
+        "track_id": "YqfbDisiAQo",
+        "track_title": "Groves",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 12,
+        "repeat_gap_count": 11,
+        "average_gap_hours": 848.9026,
+        "average_gap_days": 35.3709
+      },
+      {
+        "track_id": "aedBzDZuTVA",
+        "track_title": "What We Have Done",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 12,
+        "repeat_gap_count": 11,
+        "average_gap_hours": 773.3021,
+        "average_gap_days": 32.2209
+      },
+      {
+        "track_id": "2vvs4__2XRI",
+        "track_title": "Intriguing Possibilities (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 11,
+        "repeat_gap_count": 10,
+        "average_gap_hours": 770.6433,
+        "average_gap_days": 32.1101
+      },
+      {
+        "track_id": "RocrMotFT4c",
+        "track_title": "The Trial",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 11,
+        "repeat_gap_count": 10,
+        "average_gap_hours": 850.6229,
+        "average_gap_days": 35.4426
+      },
+      {
+        "track_id": "X-jOQkXJuIw",
+        "track_title": "A Lowly Shoe Salesman",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 11,
+        "repeat_gap_count": 10,
+        "average_gap_hours": 850.6888,
+        "average_gap_days": 35.4454
+      },
+      {
+        "track_id": "Z93gSAyWjtQ",
+        "track_title": "Meeting Kitty",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 11,
+        "repeat_gap_count": 10,
+        "average_gap_hours": 850.8196,
+        "average_gap_days": 35.4508
+      },
+      {
+        "track_id": "j11Nm4i4XbI",
+        "track_title": "Oppenheimer",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 11,
+        "repeat_gap_count": 10,
+        "average_gap_hours": 850.685,
+        "average_gap_days": 35.4452
+      },
+      {
+        "track_id": "nNiHetq8-bg",
+        "track_title": "Los Alamos",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 11,
+        "repeat_gap_count": 10,
+        "average_gap_hours": 850.6487,
+        "average_gap_days": 35.4437
+      },
+      {
+        "track_id": "pCEVj0nV7M8",
+        "track_title": "Atmospheric Ignition",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 11,
+        "repeat_gap_count": 10,
+        "average_gap_hours": 850.623,
+        "average_gap_days": 35.4426
+      },
+      {
+        "track_id": "xBkXDczuu3U",
+        "track_title": "Theorists",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 11,
+        "repeat_gap_count": 10,
+        "average_gap_hours": 850.7741,
+        "average_gap_days": 35.4489
+      },
+      {
+        "track_id": "9SBNCYkSceU",
+        "track_title": "Hand Covers Bruise (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 10,
+        "repeat_gap_count": 9,
+        "average_gap_hours": 928.1339,
+        "average_gap_days": 38.6722
+      },
+      {
+        "track_id": "oU4ZbLzaqRI",
+        "track_title": "Complication with Optimistic Outcome (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 10,
+        "repeat_gap_count": 9,
+        "average_gap_hours": 932.7823,
+        "average_gap_days": 38.8659
+      },
+      {
+        "track_id": "-U4VnWX1ZD4",
+        "track_title": "Fusion",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 9,
+        "repeat_gap_count": 8,
+        "average_gap_hours": 1057.3636,
+        "average_gap_days": 44.0568
+      },
+      {
+        "track_id": "Ee-bpPsUeto",
+        "track_title": "Manhattan Project",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 9,
+        "repeat_gap_count": 8,
+        "average_gap_hours": 1063.2081,
+        "average_gap_days": 44.3003
+      },
+      {
+        "track_id": "Kb-PTIsdvXU",
+        "track_title": "Arcade Fire Dimensions Slowed and Reverb.",
+        "channel_name": "GodSpeed",
+        "play_count": 9,
+        "repeat_gap_count": 8,
+        "average_gap_hours": 1026.2058,
+        "average_gap_days": 42.7586
+      },
+      {
+        "track_id": "4JZ-o3iAJv4",
+        "track_title": "Can You Hear The Music",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 8,
+        "repeat_gap_count": 7,
+        "average_gap_hours": 1215.1789,
+        "average_gap_days": 50.6325
+      },
+      {
+        "track_id": "O0Cw1SLdxxE",
+        "track_title": "Kanye West - Flashing Lights (Alternate Intro)",
+        "channel_name": "prod. OCEVN",
+        "play_count": 8,
+        "repeat_gap_count": 7,
+        "average_gap_hours": 1374.6236,
+        "average_gap_days": 57.276
+      },
+      {
+        "track_id": "UysO8R1vqA8",
+        "track_title": "American Prometheus",
+        "channel_name": "Ludwig Göransson - Topic",
+        "play_count": 8,
+        "repeat_gap_count": 7,
+        "average_gap_hours": 1215.387,
+        "average_gap_days": 50.6411
+      },
+      {
+        "track_id": "x5faT66jmG4",
+        "track_title": "In Motion (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 8,
+        "repeat_gap_count": 7,
+        "average_gap_hours": 1103.81,
+        "average_gap_days": 45.9921
+      },
+      {
+        "track_id": "-oThJ94PIRc",
+        "track_title": "Carbon Prevails (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 7,
+        "repeat_gap_count": 6,
+        "average_gap_hours": 1287.8201,
+        "average_gap_days": 53.6592
+      },
+      {
+        "track_id": "XU8rNrTnIUE",
+        "track_title": "Emile Mosseri - Jacob and the Stone [𝙨𝙡𝙤𝙬𝙚𝙙 + 𝙧𝙚𝙫𝙚𝙧𝙗 + 𝙚𝙭𝙩𝙚𝙣𝙙𝙚𝙙]",
+        "channel_name": "Hendo",
+        "play_count": 7,
+        "repeat_gap_count": 6,
+        "average_gap_hours": 1455.9984,
+        "average_gap_days": 60.6666
+      },
+      {
+        "track_id": "lfpxuJbVaBA",
+        "track_title": "3:14 Every Night (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 7,
+        "repeat_gap_count": 6,
+        "average_gap_hours": 1287.7618,
+        "average_gap_days": 53.6567
+      },
+      {
+        "track_id": "z2OLa3Nc38k",
+        "track_title": "Glokk40Spaz - Swamp (Official Music Video) [Dir.ArkiveTrent + MaxPain] [Prod.Four3va + GeeQ]",
+        "channel_name": "GL4 Spaz",
+        "play_count": 7,
+        "repeat_gap_count": 6,
+        "average_gap_hours": 125.5588,
+        "average_gap_days": 5.2316
+      },
+      {
+        "track_id": "8Mm3AJNE-jQ",
+        "track_title": "Alex G - Pretend",
+        "channel_name": "block perce",
+        "play_count": 6,
+        "repeat_gap_count": 5,
+        "average_gap_hours": 1574.0866,
+        "average_gap_days": 65.5869
+      },
+      {
+        "track_id": "EPMSImeIeNY",
+        "track_title": "#19",
+        "channel_name": "Aphex Twin - Topic",
+        "play_count": 6,
+        "repeat_gap_count": 5,
+        "average_gap_hours": 1637.4403,
+        "average_gap_days": 68.2267
+      },
+      {
+        "track_id": "FMJoOTOBcwE",
+        "track_title": "Aerie",
+        "channel_name": "Lena Raine - Topic",
+        "play_count": 6,
+        "repeat_gap_count": 5,
+        "average_gap_hours": 462.2829,
+        "average_gap_days": 19.2618
+      },
+      {
+        "track_id": "FjG0ivBT4lQ",
+        "track_title": "[Official] Celeste Original Soundtrack - 11 - Quiet and Falling",
+        "channel_name": "Lena Raine",
+        "play_count": 6,
+        "repeat_gap_count": 5,
+        "average_gap_hours": 1448.4759,
+        "average_gap_days": 60.3532
+      },
+      {
+        "track_id": "PJ5mO_rEMOE",
+        "track_title": "Glokk40Spaz - Bad Man",
+        "channel_name": "GL4 Spaz",
+        "play_count": 6,
+        "repeat_gap_count": 5,
+        "average_gap_hours": 165.2638,
+        "average_gap_days": 6.886
+      },
+      {
+        "track_id": "dEWIngn2_eM",
+        "track_title": "It Catches Up With You (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 6,
+        "repeat_gap_count": 5,
+        "average_gap_hours": 1545.4669,
+        "average_gap_days": 64.3945
+      },
+      {
+        "track_id": "j_CSglLbGns",
+        "track_title": "This Time Is Different",
+        "channel_name": "Lifeformed - Topic",
+        "play_count": 6,
+        "repeat_gap_count": 5,
+        "average_gap_hours": 330.5276,
+        "average_gap_days": 13.772
+      },
+      {
+        "track_id": "tTB6HmZNJ5s",
+        "track_title": "Painted Sun in Abstract (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 6,
+        "repeat_gap_count": 5,
+        "average_gap_hours": 1545.3426,
+        "average_gap_days": 64.3893
+      },
+      {
+        "track_id": "05nBBznI9V0",
+        "track_title": "Talk to Her",
+        "channel_name": "The Marías - Topic",
+        "play_count": 5,
+        "repeat_gap_count": 4,
+        "average_gap_hours": 287.334,
+        "average_gap_days": 11.9722
+      },
+      {
+        "track_id": "7Qqpp09qWGo",
+        "track_title": "Pieces Form the Whole (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 5,
+        "repeat_gap_count": 4,
+        "average_gap_hours": 1926.5735,
+        "average_gap_days": 80.2739
+      },
+      {
+        "track_id": "FLUn8IXBBX4",
+        "track_title": "deep in it",
+        "channel_name": "berlioz - Topic",
+        "play_count": 5,
+        "repeat_gap_count": 4,
+        "average_gap_hours": 220.6264,
+        "average_gap_days": 9.1928
+      },
+      {
+        "track_id": "RLqo708UjTw",
+        "track_title": "r&r",
+        "channel_name": "berlioz - Topic",
+        "play_count": 5,
+        "repeat_gap_count": 4,
+        "average_gap_hours": 220.615,
+        "average_gap_days": 9.1923
+      },
+      {
+        "track_id": "ShD1jfu47Sw",
+        "track_title": "Glokk40Spaz - Yung Nigga Shit",
+        "channel_name": "GL4 Spaz",
+        "play_count": 5,
+        "repeat_gap_count": 4,
+        "average_gap_hours": 70.3804,
+        "average_gap_days": 2.9325
+      },
+      {
+        "track_id": "XlAKW_tr4xA",
+        "track_title": "Soft Trees Break the Fall (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 5,
+        "repeat_gap_count": 4,
+        "average_gap_hours": 1931.658,
+        "average_gap_days": 80.4857
+      },
+      {
+        "track_id": "XnkQfyeHiK8",
+        "track_title": "Eventually We Find Our Own Way (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 5,
+        "repeat_gap_count": 4,
+        "average_gap_hours": 1931.7814,
+        "average_gap_days": 80.4909
+      },
+      {
+        "track_id": "bSe3xemu1LY",
+        "track_title": "Superpowers",
+        "channel_name": "Daniel Caesar - Topic",
+        "play_count": 5,
+        "repeat_gap_count": 4,
+        "average_gap_hours": 1758.5912,
+        "average_gap_days": 73.2746
+      },
+      {
+        "track_id": "b_ajArNJmjY",
+        "track_title": "Magnetic (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 5,
+        "repeat_gap_count": 4,
+        "average_gap_hours": 198.4703,
+        "average_gap_days": 8.2696
+      },
+      {
+        "track_id": "q_QwBJdzPT8",
+        "track_title": "Penetration (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 5,
+        "repeat_gap_count": 4,
+        "average_gap_hours": 1931.7056,
+        "average_gap_days": 80.4877
+      },
+      {
+        "track_id": "yaztFAh23vs",
+        "track_title": "Hand Covers Bruise, Reprise (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 5,
+        "repeat_gap_count": 4,
+        "average_gap_hours": 1931.834,
+        "average_gap_days": 80.4931
+      },
+      {
+        "track_id": "-64qq6rThDE",
+        "track_title": "Roof Cave Down",
+        "channel_name": "Release - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 485.6878,
+        "average_gap_days": 20.237
+      },
+      {
+        "track_id": "4F_vcZ6KD9Q",
+        "track_title": "Lil Baby - In A Minute (Official Video)",
+        "channel_name": "LilBabyVEVO",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 22.3332,
+        "average_gap_days": 0.9306
+      },
+      {
+        "track_id": "6-Sr7ZEHUZg",
+        "track_title": "Sum 2 Prove",
+        "channel_name": "Lil Baby - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 67.0742,
+        "average_gap_days": 2.7948
+      },
+      {
+        "track_id": "67C6EHUxeG4",
+        "track_title": "On We March (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 2575.7781,
+        "average_gap_days": 107.3241
+      },
+      {
+        "track_id": "DmWWqogr_r8",
+        "track_title": "21 Savage - a lot (Official Video) ft. J. Cole",
+        "channel_name": "21SavageVEVO",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 360.7205,
+        "average_gap_days": 15.03
+      },
+      {
+        "track_id": "EDj3Kgrx0Zo",
+        "track_title": "jazz is for ordinary people",
+        "channel_name": "berlioz - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 294.1244,
+        "average_gap_days": 12.2552
+      },
+      {
+        "track_id": "Ho6HRBPOgM0",
+        "track_title": "A Familier Taste (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 2575.6569,
+        "average_gap_days": 107.319
+      },
+      {
+        "track_id": "KOIEo_74L-Q",
+        "track_title": "Aria Math",
+        "channel_name": "Daniel Rosenfeld - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 550.7428,
+        "average_gap_days": 22.9476
+      },
+      {
+        "track_id": "Ln-D9gsk_m4",
+        "track_title": "hot house",
+        "channel_name": "berlioz - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 294.1226,
+        "average_gap_days": 12.2551
+      },
+      {
+        "track_id": "NomGdaA-g0w",
+        "track_title": "What You Heard",
+        "channel_name": "Sonder - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 85.7871,
+        "average_gap_days": 3.5745
+      },
+      {
+        "track_id": "O3no-kL6loY",
+        "track_title": "catching flies - satisfied (slowed + reverb, paul stretched)",
+        "channel_name": "drown in fog",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 283.8054,
+        "average_gap_days": 11.8252
+      },
+      {
+        "track_id": "PMk8L9FNqnY",
+        "track_title": "Over My Dead Body",
+        "channel_name": "Drake - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 62.548,
+        "average_gap_days": 2.6062
+      },
+      {
+        "track_id": "SK7V5TXhj-g",
+        "track_title": "Almost Home (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 2575.6934,
+        "average_gap_days": 107.3206
+      },
+      {
+        "track_id": "TJUWO1-z--8",
+        "track_title": "Glokk40Spaz - Joker (dir. @PublicGoatt)",
+        "channel_name": "GL4 Spaz",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 167.4688,
+        "average_gap_days": 6.9779
+      },
+      {
+        "track_id": "YjJzmz653S0",
+        "track_title": "F*ck U Thought",
+        "channel_name": "Lil Durk - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 49.8715,
+        "average_gap_days": 2.078
+      },
+      {
+        "track_id": "Z39AFprNIbU",
+        "track_title": "Baby",
+        "channel_name": "Summer Walker - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 62.5118,
+        "average_gap_days": 2.6047
+      },
+      {
+        "track_id": "cp1MDuIsLxk",
+        "track_title": "deep dreams",
+        "channel_name": "Insensible - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 556.3752,
+        "average_gap_days": 23.1823
+      },
+      {
+        "track_id": "lUKGzvQj4bI",
+        "track_title": "Pound Cake / Paris Morton Music 2",
+        "channel_name": "Release - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 3850.3323,
+        "average_gap_days": 160.4305
+      },
+      {
+        "track_id": "mcB_TNU_apI",
+        "track_title": "Freestyle",
+        "channel_name": "Lil Baby - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 67.0981,
+        "average_gap_days": 2.7958
+      },
+      {
+        "track_id": "pvU4b4N1-QU",
+        "track_title": "Dear April (Side A - Acoustic)",
+        "channel_name": "Frank Ocean - Topic",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 66.4919,
+        "average_gap_days": 2.7705
+      },
+      {
+        "track_id": "uAyob6tTAUM",
+        "track_title": "Trinity | Oppenheimer OST",
+        "channel_name": "Original Soundtrack",
+        "play_count": 4,
+        "repeat_gap_count": 3,
+        "average_gap_hours": 78.7456,
+        "average_gap_days": 3.2811
+      },
+      {
+        "track_id": "2oE57OyhCgc",
+        "track_title": "stress",
+        "channel_name": "2Sdxrt3all - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 153.7454,
+        "average_gap_days": 6.4061
+      },
+      {
+        "track_id": "50GVPFj66CY",
+        "track_title": "RICK ROSS - DEVIL IN A NEW DRESS",
+        "channel_name": "MMG",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 3655.8051,
+        "average_gap_days": 152.3252
+      },
+      {
+        "track_id": "50UKqoiqf3k",
+        "track_title": "retire (final) but youre in a liminal space",
+        "channel_name": "rxosy music",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 4160.1976,
+        "average_gap_days": 173.3416
+      },
+      {
+        "track_id": "5dZRiqU3kdU",
+        "track_title": "Yung Nigga Shit",
+        "channel_name": "Glokk40Spaz - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 3603.2494,
+        "average_gap_days": 150.1354
+      },
+      {
+        "track_id": "6lBSU6I7va8",
+        "track_title": "The Sound of Myself - Disasterpeace Extended Version",
+        "channel_name": "Erim Fortin",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 536.2417,
+        "average_gap_days": 22.3434
+      },
+      {
+        "track_id": "6r-e3YGINuc",
+        "track_title": "Dramamine (Slowed)",
+        "channel_name": "Killswitch Memories - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 140.0993,
+        "average_gap_days": 5.8375
+      },
+      {
+        "track_id": "8RMXigC_SNU",
+        "track_title": "In A Minute",
+        "channel_name": "Lil Baby - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 16.0481,
+        "average_gap_days": 0.6687
+      },
+      {
+        "track_id": "9-XbXBq8cl8",
+        "track_title": "Sing About Me, I'm Dying Of Thirst",
+        "channel_name": "Release - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 5727.215,
+        "average_gap_days": 238.634
+      },
+      {
+        "track_id": "99B63a5xPno",
+        "track_title": "alpha by c418 except it's the perfect end to a decade",
+        "channel_name": "AquaSkye",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 40.9599,
+        "average_gap_days": 1.7067
+      },
+      {
+        "track_id": "OburOh3dM0c",
+        "track_title": "Glokk40Spaz - Final Warning (Official Music Video)",
+        "channel_name": "GL4 Spaz",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 367.449,
+        "average_gap_days": 15.3104
+      },
+      {
+        "track_id": "OkqOmWyb2Ac",
+        "track_title": "IZ-US",
+        "channel_name": "Aphex Twin - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 3283.1951,
+        "average_gap_days": 136.7998
+      },
+      {
+        "track_id": "P2u4G9IccCw",
+        "track_title": "tilekid - you not the same (slowed)",
+        "channel_name": "dreamscape",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 536.4243,
+        "average_gap_days": 22.351
+      },
+      {
+        "track_id": "PD4F61NJm8Q",
+        "track_title": "Johnny P's Caddy",
+        "channel_name": "Benny The Butcher - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 16.0481,
+        "average_gap_days": 0.6687
+      },
+      {
+        "track_id": "PP-xxI7smcI",
+        "track_title": "Glokk40Spaz - Zodiac",
+        "channel_name": "GL4 Spaz",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 321.229,
+        "average_gap_days": 13.3845
+      },
+      {
+        "track_id": "RhAUL-uQTCs",
+        "track_title": "tiredminds - how to never stop being sad (instrumental) [slowed + reverb]",
+        "channel_name": "tiredminds",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 4105.5331,
+        "average_gap_days": 171.0639
+      },
+      {
+        "track_id": "RjXGral96HM",
+        "track_title": "Welcome Home",
+        "channel_name": "Nadav Cohen - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 415.8418,
+        "average_gap_days": 17.3267
+      },
+      {
+        "track_id": "TaXlw0OmSOg",
+        "track_title": "Bromeliad",
+        "channel_name": "Aaron Cherof - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 538.5676,
+        "average_gap_days": 22.4403
+      },
+      {
+        "track_id": "YG3EhWlBaoI",
+        "track_title": "\"2024\" prod. ojivolta, earlonthebeat, and Kanye West",
+        "channel_name": "Playboi Carti",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 306.0182,
+        "average_gap_days": 12.7508
+      },
+      {
+        "track_id": "YkI-AOjFXYM",
+        "track_title": "Nocturne",
+        "channel_name": "Trevor Kowalski - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 778.384,
+        "average_gap_days": 32.4327
+      },
+      {
+        "track_id": "YvkHPdsjQQs",
+        "track_title": "Lemon Pepper Freestyle",
+        "channel_name": "Drake - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 112.2522,
+        "average_gap_days": 4.6772
+      },
+      {
+        "track_id": "_uGvzDKgHpo",
+        "track_title": "Bad Man",
+        "channel_name": "Glokk40Spaz - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 397.6706,
+        "average_gap_days": 16.5696
+      },
+      {
+        "track_id": "cD8EPdn5Ctg",
+        "track_title": "In the Hall of the Mountain King (HD) - From the Soundtrack to \"The Social Network\"",
+        "channel_name": "CookieAdventures",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 3853.1993,
+        "average_gap_days": 160.55
+      },
+      {
+        "track_id": "doGlS0lcDZQ",
+        "track_title": "Lil Tony Official - 3 AM",
+        "channel_name": "LilTonyVEVO",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 374.1861,
+        "average_gap_days": 15.5911
+      },
+      {
+        "track_id": "eUUuI--jAlM",
+        "track_title": "Dreamville - Under The Sun ft. J. Cole, DaBaby, Lute (Official Music Video)",
+        "channel_name": "Dreamville",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 469.3014,
+        "average_gap_days": 19.5542
+      },
+      {
+        "track_id": "efxiDBygvdg",
+        "track_title": "Diplo - Wish (feat. Trippie Redd) (Official Music Video)",
+        "channel_name": "Diplo",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 266.6624,
+        "average_gap_days": 11.1109
+      },
+      {
+        "track_id": "exvt4dzmuaI",
+        "track_title": "Resonance",
+        "channel_name": "Home - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 3381.3794,
+        "average_gap_days": 140.8908
+      },
+      {
+        "track_id": "g8ryOVq7ano",
+        "track_title": "salvia palth - (dream) slowed + reverb",
+        "channel_name": "leetcrew",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 399.1399,
+        "average_gap_days": 16.6308
+      },
+      {
+        "track_id": "icZOJ878cGk",
+        "track_title": "losing",
+        "channel_name": "Lonnex - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 3519.3101,
+        "average_gap_days": 146.6379
+      },
+      {
+        "track_id": "lVou8NAcY7U",
+        "track_title": "Ready",
+        "channel_name": "Lil Baby - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 33.9507,
+        "average_gap_days": 1.4146
+      },
+      {
+        "track_id": "pO2iiBEmwL4",
+        "track_title": "Kankan (Ft. Summrs) - ##RRAnthem",
+        "channel_name": "Kankan",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 240.354,
+        "average_gap_days": 10.0148
+      },
+      {
+        "track_id": "prEIh1r-4Og",
+        "track_title": "losing",
+        "channel_name": "Lonnex - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 4024.0857,
+        "average_gap_days": 167.6702
+      },
+      {
+        "track_id": "qYcoJpqCha4",
+        "track_title": "aruarian dance",
+        "channel_name": "Nujabes - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 434.3831,
+        "average_gap_days": 18.0993
+      },
+      {
+        "track_id": "r4l9bFqgMaQ",
+        "track_title": "Frank Ocean - Nights",
+        "channel_name": "Blonded",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 3899.0725,
+        "average_gap_days": 162.4614
+      },
+      {
+        "track_id": "sKu8Zg7Hplc",
+        "track_title": "LUCKI - PAIDNFULL / COLORFUL DRUGS (Official Video)",
+        "channel_name": "LUCKI",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 320.8274,
+        "average_gap_days": 13.3678
+      },
+      {
+        "track_id": "tEXYfT_G0W0",
+        "track_title": "New Person, Same Old Mistakes",
+        "channel_name": "Tame Impala - Topic",
+        "play_count": 3,
+        "repeat_gap_count": 2,
+        "average_gap_hours": 5769.0322,
+        "average_gap_days": 240.3763
+      },
+      {
+        "track_id": "-1TjqZC3TXo",
+        "track_title": "Summrs- Marble Floors (Official Music Video)",
+        "channel_name": "summrs",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 454.7061,
+        "average_gap_days": 18.9461
+      },
+      {
+        "track_id": "-jEShhcnxIM",
+        "track_title": "Lil Durk - F*ck U Thought",
+        "channel_name": "LilDurkVEVO",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 77.6297,
+        "average_gap_days": 3.2346
+      },
+      {
+        "track_id": "0Lu_glDG_jY",
+        "track_title": "Jennifer’s Body",
+        "channel_name": "Ken Carson - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 291.7969,
+        "average_gap_days": 12.1582
+      },
+      {
+        "track_id": "0TuGHZTdGBQ",
+        "track_title": "Great Are You Lord (Live)",
+        "channel_name": "Casting Crowns - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 193.5514,
+        "average_gap_days": 8.0646
+      },
+      {
+        "track_id": "0qlvKgm-WXM",
+        "track_title": "F Song",
+        "channel_name": "Strawberry Guy - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 1574.7758,
+        "average_gap_days": 65.6157
+      },
+      {
+        "track_id": "3v-Nk0HUJRA",
+        "track_title": "Crazy",
+        "channel_name": "Lil Baby - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 6915.1983,
+        "average_gap_days": 288.1333
+      },
+      {
+        "track_id": "4w59OhKY-A0",
+        "track_title": "tiredminds - not my responsibility (instrumental) [slowed + reverb]",
+        "channel_name": "tiredminds",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 8209.9764,
+        "average_gap_days": 342.0823
+      },
+      {
+        "track_id": "5ACDdAfA5GA",
+        "track_title": "Thug's In My House",
+        "channel_name": "Glokk40Spaz - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 99.9636,
+        "average_gap_days": 4.1652
+      },
+      {
+        "track_id": "67vr-3kpX3Q",
+        "track_title": "Alright",
+        "channel_name": "Kendrick Lamar - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 1082.055,
+        "average_gap_days": 45.0856
+      },
+      {
+        "track_id": "6uuL43i-JQY",
+        "track_title": "LUCKI - GOODFELLAS (Official Video)",
+        "channel_name": "LUCKI",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 481.4583,
+        "average_gap_days": 20.0608
+      },
+      {
+        "track_id": "76O3w4pt0CA",
+        "track_title": "Miguel - Sky Walker (Official Video) ft. Travis Scott",
+        "channel_name": "MiguelVEVO",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 533.2186,
+        "average_gap_days": 22.2174
+      },
+      {
+        "track_id": "7SQQy3cVJYA",
+        "track_title": "Medasin - Magic (Super Slowed + Reverb) (Tiktok)",
+        "channel_name": "Faithful",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 6861.9578,
+        "average_gap_days": 285.9149
+      },
+      {
+        "track_id": "8zjqY2X_2HY",
+        "track_title": "Veeze - GOMD (prod by Tye Beats)",
+        "channel_name": "VEEZE WEAK ASS 7",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 163.4497,
+        "average_gap_days": 6.8104
+      },
+      {
+        "track_id": "9Rc5BzgKQmg",
+        "track_title": "Brutal Honesty",
+        "channel_name": "Glokk40Spaz - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 796.2678,
+        "average_gap_days": 33.1778
+      },
+      {
+        "track_id": "BgBNLX_3afs",
+        "track_title": "lonnex - losing",
+        "channel_name": "dreamscape",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 688.0808,
+        "average_gap_days": 28.67
+      },
+      {
+        "track_id": "Cl3htLU1NIQ",
+        "track_title": "Glokk40Spaz - Perfect My Rob",
+        "channel_name": "GL4 Spaz",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 670.4006,
+        "average_gap_days": 27.9334
+      },
+      {
+        "track_id": "D0meVJwBUl0",
+        "track_title": "Alternative Outro",
+        "channel_name": "LUCKI - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 1082.5286,
+        "average_gap_days": 45.1054
+      },
+      {
+        "track_id": "DUO_uZ_qbss",
+        "track_title": "Champagne Poetry",
+        "channel_name": "Drake - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 10491.0897,
+        "average_gap_days": 437.1287
+      },
+      {
+        "track_id": "DmH0ECtSjRs",
+        "track_title": "4422",
+        "channel_name": "Drake - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 2087.9964,
+        "average_gap_days": 86.9998
+      },
+      {
+        "track_id": "DonHCWfyjPM",
+        "track_title": "arcade fire - dimensions (slowed)",
+        "channel_name": "zaf",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 11.4564,
+        "average_gap_days": 0.4773
+      },
+      {
+        "track_id": "DqE4YtvC-9Y",
+        "track_title": "2022 Freestyle",
+        "channel_name": "D Savage - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 291.03,
+        "average_gap_days": 12.1263
+      },
+      {
+        "track_id": "ETkLGGxMEgU",
+        "track_title": "nuages - closer (slowed down)",
+        "channel_name": "dreamscape",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 78.0761,
+        "average_gap_days": 3.2532
+      },
+      {
+        "track_id": "EtrL9NkEphg",
+        "track_title": "summrs-back 2 da basics [official video]",
+        "channel_name": "summrs",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 480.4042,
+        "average_gap_days": 20.0168
+      },
+      {
+        "track_id": "FX6Sly6V4Lo",
+        "track_title": "Glokk40Spaz - Nun 4 No Schmuck",
+        "channel_name": "GL4 Spaz",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 187.9781,
+        "average_gap_days": 7.8324
+      },
+      {
+        "track_id": "Fx3b85eDQvw",
+        "track_title": "Nights",
+        "channel_name": "Frank Ocean - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 11573.4892,
+        "average_gap_days": 482.2287
+      },
+      {
+        "track_id": "G_X2c6MPiAg",
+        "track_title": "I Can Only Imagine",
+        "channel_name": "MercyMe - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 193.4386,
+        "average_gap_days": 8.0599
+      },
+      {
+        "track_id": "Ggddxkj8tU0",
+        "track_title": "The Girl I Haven't Met",
+        "channel_name": "Kudasaibeats - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 999.745,
+        "average_gap_days": 41.656
+      },
+      {
+        "track_id": "GnKdDGoxtko",
+        "track_title": "Veeze - Get Lucki (Official Music Video)",
+        "channel_name": "VEEZE WEAK ASS 7",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 478.6231,
+        "average_gap_days": 19.9426
+      },
+      {
+        "track_id": "Gxbwc1VfgYU",
+        "track_title": "it's_cold_here",
+        "channel_name": "Release - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 1948.3422,
+        "average_gap_days": 81.1809
+      },
+      {
+        "track_id": "IgBLFQBCCuU",
+        "track_title": "LUCKI - Heavy On My Heart (Official Video)",
+        "channel_name": "LUCKI",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 556.1294,
+        "average_gap_days": 23.1721
+      },
+      {
+        "track_id": "IjYSHZD0jZ4",
+        "track_title": "Lilsccrt - No fear",
+        "channel_name": "LilSccrt",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 461.4517,
+        "average_gap_days": 19.2272
+      },
+      {
+        "track_id": "IpaqEkhNi4k",
+        "track_title": "BILLY",
+        "channel_name": "6ix9ine - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 32.1739,
+        "average_gap_days": 1.3406
+      },
+      {
+        "track_id": "J87pJrxvJ5E",
+        "track_title": "PRIDE.",
+        "channel_name": "Kendrick Lamar - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 11533.1847,
+        "average_gap_days": 480.5494
+      },
+      {
+        "track_id": "JQEr_8NrfTY",
+        "track_title": "Lil Tecca - Show Me Up (Official Video)",
+        "channel_name": "Lil Tecca",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 1055.68,
+        "average_gap_days": 43.9867
+      },
+      {
+        "track_id": "Ke_UYfv_FN8",
+        "track_title": "Everyday Hustle",
+        "channel_name": "Future - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 1046.6211,
+        "average_gap_days": 43.6092
+      },
+      {
+        "track_id": "KfEEm4Zx-EU",
+        "track_title": "505",
+        "channel_name": "Arctic Monkeys - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 11503.1756,
+        "average_gap_days": 479.299
+      },
+      {
+        "track_id": "LH2N2bjX69U",
+        "track_title": "Oh U Went (feat. Drake)",
+        "channel_name": "Young Thug - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 12.9039,
+        "average_gap_days": 0.5377
+      },
+      {
+        "track_id": "LICKOttG9rw",
+        "track_title": "Hikari (Slowed + Reverb)",
+        "channel_name": "Clovis Reyes - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 166.4569,
+        "average_gap_days": 6.9357
+      },
+      {
+        "track_id": "LVBnWA04Xvw",
+        "track_title": "wash my sins away",
+        "channel_name": "berlioz - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 603.0992,
+        "average_gap_days": 25.1291
+      },
+      {
+        "track_id": "Lvp7QStWlJU",
+        "track_title": "Lil Baby - Crazy",
+        "channel_name": "LilBabyVEVO",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 191.3353,
+        "average_gap_days": 7.9723
+      },
+      {
+        "track_id": "PgG80WkPJQI",
+        "track_title": "The Internet - Hold on (slowed + reverb)",
+        "channel_name": "Tabii",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 805.2653,
+        "average_gap_days": 33.5527
+      },
+      {
+        "track_id": "PhLanmf5yHk",
+        "track_title": "Glokk40Spaz - Bad Relations",
+        "channel_name": "GL4 Spaz",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 24.6069,
+        "average_gap_days": 1.0253
+      },
+      {
+        "track_id": "QGNJwKpl1a8",
+        "track_title": "Exotic",
+        "channel_name": "Lil Baby - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 49.9431,
+        "average_gap_days": 2.081
+      },
+      {
+        "track_id": "QTmRmPDS9tw",
+        "track_title": "Destroy Lonely - NOSTYLIST (Official Video)",
+        "channel_name": "Destroy Lonely",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 463.7869,
+        "average_gap_days": 19.3245
+      },
+      {
+        "track_id": "RKD8sVVTEAA",
+        "track_title": "Self Control",
+        "channel_name": "Frank Ocean - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 48.9819,
+        "average_gap_days": 2.0409
+      },
+      {
+        "track_id": "TK704vvY3Ao",
+        "track_title": "Glokk40Spaz - Be Right Back",
+        "channel_name": "GL4 Spaz",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 344.1125,
+        "average_gap_days": 14.338
+      },
+      {
+        "track_id": "TKHjJnEaVrQ",
+        "track_title": "Brown Noise for Sleep",
+        "channel_name": "Sounds For Life - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 117.5025,
+        "average_gap_days": 4.8959
+      },
+      {
+        "track_id": "W7VK4DUHvKU",
+        "track_title": "Lil Yachty - Pardon Me ft. Future, Mike WiLL Made-It",
+        "channel_name": "LilYachtyVEVO",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 574.8089,
+        "average_gap_days": 23.9504
+      },
+      {
+        "track_id": "WILNIXZr2oc",
+        "track_title": "J. Cole - MIDDLE CHILD",
+        "channel_name": "JColeVEVO",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 805.2347,
+        "average_gap_days": 33.5514
+      },
+      {
+        "track_id": "WW4ShzNVaC4",
+        "track_title": "Glokk40Spaz - Whatchu Sayin?! (Prod. Al Chapo + SenseiATL) [Official Video]",
+        "channel_name": "GL4 Spaz",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 24.8606,
+        "average_gap_days": 1.0359
+      },
+      {
+        "track_id": "WmYTrtu-25A",
+        "track_title": "Shuniji",
+        "channel_name": "Daniel Rosenfeld - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 2111.0203,
+        "average_gap_days": 87.9592
+      },
+      {
+        "track_id": "WnxYoYBhyWA",
+        "track_title": "Do You Want",
+        "channel_name": "LUCKI - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 9870.9883,
+        "average_gap_days": 411.2912
+      },
+      {
+        "track_id": "XctJ5Hh-ZfY",
+        "track_title": "3 AM",
+        "channel_name": "Lil Tony Official - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 237.6047,
+        "average_gap_days": 9.9002
+      },
+      {
+        "track_id": "Ye-6goEDe44",
+        "track_title": "Jace! - Goose Creek (OFFICIAL VIDEO) [Shot By: @Jmoney1041 Edit By: @jacepowers ]",
+        "channel_name": "Jace!",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 479.1103,
+        "average_gap_days": 19.9629
+      },
+      {
+        "track_id": "Yi90p-4yk74",
+        "track_title": "Lil TJAY - Forever (Official Music Video)",
+        "channel_name": "Lil Tjay",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 613.0061,
+        "average_gap_days": 25.5419
+      },
+      {
+        "track_id": "YnsiyiC0Nc0",
+        "track_title": "Pinegrove - Aphasia - Audiotree Live (8 of 8)",
+        "channel_name": "Audiotree",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 2346.9167,
+        "average_gap_days": 97.7882
+      },
+      {
+        "track_id": "Yq_qdfajtNI",
+        "track_title": "LUCKI - 13 (Official Video)",
+        "channel_name": "LUCKI",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 453.2575,
+        "average_gap_days": 18.8857
+      },
+      {
+        "track_id": "Ysdf6F_8Nyk",
+        "track_title": "Thouxanban Fauni - \"Wish the Worst\" (Official Music Video)  (Shot by @Quintron) prod by Chinatown",
+        "channel_name": "SODA CLUB",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 486.9369,
+        "average_gap_days": 20.289
+      },
+      {
+        "track_id": "Zbnv6sSFksc",
+        "track_title": "Apparently",
+        "channel_name": "J. Cole - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 10491.9536,
+        "average_gap_days": 437.1647
+      },
+      {
+        "track_id": "ZkXG3ZrXlbc",
+        "track_title": "DRAKE - FAMILY MATTERS",
+        "channel_name": "Drake",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 452.2611,
+        "average_gap_days": 18.8442
+      },
+      {
+        "track_id": "_3ngiSxVCBs",
+        "track_title": "Sweden",
+        "channel_name": "Daniel Rosenfeld - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 468.8558,
+        "average_gap_days": 19.5357
+      },
+      {
+        "track_id": "_mRxOWvN9jo",
+        "track_title": "No Fear (Sped Up)",
+        "channel_name": "LilSccrt - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 74.2564,
+        "average_gap_days": 3.094
+      },
+      {
+        "track_id": "a66-ye5gS_s",
+        "track_title": "Glokk40Spaz - Higher Than Earth",
+        "channel_name": "GL4 Spaz",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 243.2642,
+        "average_gap_days": 10.136
+      },
+      {
+        "track_id": "arNkB9vxS3Q",
+        "track_title": "Mountains",
+        "channel_name": "Hans Zimmer - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 361.6292,
+        "average_gap_days": 15.0679
+      },
+      {
+        "track_id": "b8m9zhNAgKs",
+        "track_title": "Rae Sremmurd - Black Beatles ft. Gucci Mane (Official Video)",
+        "channel_name": "RaeSremmurdVEVO",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 1088.9083,
+        "average_gap_days": 45.3712
+      },
+      {
+        "track_id": "bErro3V93ok",
+        "track_title": "Men I Trust - I Hope To Be Around (live)",
+        "channel_name": "Men I Trust",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 73.9506,
+        "average_gap_days": 3.0813
+      },
+      {
+        "track_id": "bHRv-EIuKJ8",
+        "track_title": "From Time",
+        "channel_name": "Drake - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 6.4814,
+        "average_gap_days": 0.2701
+      },
+      {
+        "track_id": "bd5l5NtzoWc",
+        "track_title": "Gët Busy [Official Music Video]",
+        "channel_name": "Yeat",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 429.3219,
+        "average_gap_days": 17.8884
+      },
+      {
+        "track_id": "cBXlbRbKwf4",
+        "track_title": "C418 - Aria Math slowed down + reverb",
+        "channel_name": "Rekordea",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 8210.3397,
+        "average_gap_days": 342.0975
+      },
+      {
+        "track_id": "dMAGiSGJNPk",
+        "track_title": "midnight vice city",
+        "channel_name": "WisdomBeatz - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 26.2725,
+        "average_gap_days": 1.0947
+      },
+      {
+        "track_id": "dUmcKiO_yk8",
+        "track_title": "DeadShot",
+        "channel_name": "Pce Bj - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 290.0333,
+        "average_gap_days": 12.0847
+      },
+      {
+        "track_id": "f-vom4vjA2k",
+        "track_title": "Rio Da Yung Og - \"Legendary\" (Official Music Video)@SBKEONTA",
+        "channel_name": "Rio Da Yung OG",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 453.7567,
+        "average_gap_days": 18.9065
+      },
+      {
+        "track_id": "fIrSkilUvHw",
+        "track_title": "LUCKI - Super Urus (Official Video)",
+        "channel_name": "LUCKI",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 454.3747,
+        "average_gap_days": 18.9323
+      },
+      {
+        "track_id": "fUqPS2xDmvs",
+        "track_title": "Lil Uzi Vert - Dip (Remix) (Music Video) Shot By @Jmoney1041",
+        "channel_name": "Jmoney1041",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 19.215,
+        "average_gap_days": 0.8006
+      },
+      {
+        "track_id": "fahxSXoXlsA",
+        "track_title": "Nikes",
+        "channel_name": "Frank Ocean - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 146.8175,
+        "average_gap_days": 6.1174
+      },
+      {
+        "track_id": "g1QobinRyaA",
+        "track_title": "False Prophets",
+        "channel_name": "J. Cole - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 481.6528,
+        "average_gap_days": 20.0689
+      },
+      {
+        "track_id": "gLPt1TGrBZ8",
+        "track_title": "Club Paradise",
+        "channel_name": "Drake - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 624.8078,
+        "average_gap_days": 26.0337
+      },
+      {
+        "track_id": "gNbj8InBpKU",
+        "track_title": "Too Deep for the Intro",
+        "channel_name": "J. Cole - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 1082.2381,
+        "average_gap_days": 45.0933
+      },
+      {
+        "track_id": "iHzuygQd3do",
+        "track_title": "Aphex Twin - #19 (Official Audio)",
+        "channel_name": "Aphex Twin",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 8183.2908,
+        "average_gap_days": 340.9705
+      },
+      {
+        "track_id": "iRBS8AJZpFM",
+        "track_title": "Glokk40Spaz - Wacko Ft. SlimeSito",
+        "channel_name": "GL4 Spaz",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 506.6931,
+        "average_gap_days": 21.1122
+      },
+      {
+        "track_id": "jbrarMb6fpw",
+        "track_title": "LUCKI - NO BAP (Official Video)",
+        "channel_name": "LUCKI",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 288.8533,
+        "average_gap_days": 12.0356
+      },
+      {
+        "track_id": "k79dMVVmvA8",
+        "track_title": "Comforting Memories",
+        "channel_name": "Kumi Tanioka - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 505.0844,
+        "average_gap_days": 21.0452
+      },
+      {
+        "track_id": "kBbnPzFcty8",
+        "track_title": "deep in it",
+        "channel_name": "berlioz - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 334.3903,
+        "average_gap_days": 13.9329
+      },
+      {
+        "track_id": "kZmZ-DvGXvM",
+        "track_title": "playboi carti - @ meh (banakula & llusion remix) (slowed + reverb)",
+        "channel_name": "slerb",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 409.5728,
+        "average_gap_days": 17.0655
+      },
+      {
+        "track_id": "kwqOVpiw08k",
+        "track_title": "Glokk40Spaz - Still Young Pablo [Dir.ITM][Prod.Lamsal]",
+        "channel_name": "GL4 Spaz",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 299.6906,
+        "average_gap_days": 12.4871
+      },
+      {
+        "track_id": "lQtm6sS-DPM",
+        "track_title": "Beneficial For AnyBody",
+        "channel_name": "Glokk40Spaz - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 52.8978,
+        "average_gap_days": 2.2041
+      },
+      {
+        "track_id": "mmK71ZfaZO4",
+        "track_title": "Agape",
+        "channel_name": "Nicholas Britell - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 486.57,
+        "average_gap_days": 20.2737
+      },
+      {
+        "track_id": "mtAWk7nZcPA",
+        "track_title": "Can You Hear The Music (From 'Oppenheimer')",
+        "channel_name": "Baltic House Orchestra - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 143.2642,
+        "average_gap_days": 5.9693
+      },
+      {
+        "track_id": "nbfFzs-dW3U",
+        "track_title": "Stardust",
+        "channel_name": "MrHeadA$$Trendy - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 181.2819,
+        "average_gap_days": 7.5534
+      },
+      {
+        "track_id": "nhNqbe6QENY",
+        "track_title": "GoldLink - Crew (Official Video) ft. Brent Faiyaz, Shy Glizzy",
+        "channel_name": "GoldLinkVEVO",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 1089.1006,
+        "average_gap_days": 45.3792
+      },
+      {
+        "track_id": "oFhWIzPMpbo",
+        "track_title": "Drake ft. James Blake - The Catch Up (Official)",
+        "channel_name": "OUTTRO.COM",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 589.4061,
+        "average_gap_days": 24.5586
+      },
+      {
+        "track_id": "oKr9gDBd0qQ",
+        "track_title": "Drake - Bahamas Promises (Audio)",
+        "channel_name": "DrakeVEVO",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 974.0058,
+        "average_gap_days": 40.5836
+      },
+      {
+        "track_id": "pdJn-LtuWMw",
+        "track_title": "Glokk40Spaz - 2 Love 2 Da Mob (Official Music Video) [Dir.Vanity] [Prod.Ok]",
+        "channel_name": "GL4 Spaz",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 454.1878,
+        "average_gap_days": 18.9245
+      },
+      {
+        "track_id": "q5Sf2xz9cIk",
+        "track_title": "LUCKI - NASCAR DASHCAR (OFFICIAL VIDEO)",
+        "channel_name": "LUCKI",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 505.7114,
+        "average_gap_days": 21.0713
+      },
+      {
+        "track_id": "raWSH1KrgFI",
+        "track_title": "Slow Jamz",
+        "channel_name": "Jamie Foxx - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 576.6353,
+        "average_gap_days": 24.0265
+      },
+      {
+        "track_id": "ugou23mYCmE",
+        "track_title": "LUCKI - Y NOT? (Official Video)",
+        "channel_name": "LUCKI",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 478.9933,
+        "average_gap_days": 19.9581
+      },
+      {
+        "track_id": "uu2hjPUJseU",
+        "track_title": "Lil Tony Official - Money Music (Official Music Video) Shot By PublicGoat",
+        "channel_name": "Lil Tony Official",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 482.1811,
+        "average_gap_days": 20.0909
+      },
+      {
+        "track_id": "wMR4jLlTw0c",
+        "track_title": "Yves Tumor - Limerence (instrumental + slowed)",
+        "channel_name": "ikodary",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 571.7194,
+        "average_gap_days": 23.8216
+      },
+      {
+        "track_id": "x1gR4Tr3E9g",
+        "track_title": "More Than Ever",
+        "channel_name": "CHASETHEMONEY - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 11379.1953,
+        "average_gap_days": 474.1331
+      },
+      {
+        "track_id": "xnhXGNASzck",
+        "track_title": "faye webster - i know you (slowed & reverb) [with lyrics]",
+        "channel_name": "lustry.",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 8211.2356,
+        "average_gap_days": 342.1348
+      },
+      {
+        "track_id": "y7B6Z-_-Bcc",
+        "track_title": "Vacations - Telephones",
+        "channel_name": "VACATIONS",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 7108.1081,
+        "average_gap_days": 296.1712
+      },
+      {
+        "track_id": "yox2Yz4Ni2o",
+        "track_title": "Gojo Satoru - The Honored One | Jujutsu Kaisen Season 2 OST",
+        "channel_name": "Normaneverland",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 576.635,
+        "average_gap_days": 24.0265
+      },
+      {
+        "track_id": "zE_rK8PX83Q",
+        "track_title": "Pinegrove - Need 2 (official lyric video)",
+        "channel_name": "PinegroveBand",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 7071.6492,
+        "average_gap_days": 294.652
+      },
+      {
+        "track_id": "zhY_0DoQCQs",
+        "track_title": "Do Not Disturb",
+        "channel_name": "Drake - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 1041.5,
+        "average_gap_days": 43.3958
+      },
+      {
+        "track_id": "zvUC8Ka3cZA",
+        "track_title": "green to blue",
+        "channel_name": "Aurenth - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 472.3156,
+        "average_gap_days": 19.6798
+      },
+      {
+        "track_id": "zxgKO0mrtks",
+        "track_title": "Sabiá",
+        "channel_name": "Antonio Carlos Jobim - Topic",
+        "play_count": 2,
+        "repeat_gap_count": 1,
+        "average_gap_hours": 975.0917,
+        "average_gap_days": 40.6288
+      }
+    ]
+  },
+  "top_track_concentration": {
+    "definition": "cumulative share of all plays held by the top N tracks",
+    "top_1_percent": 2.1399,
+    "top_5_percent": 9.0292,
+    "top_10_percent": 16.2317
+  },
+  "discovery_rate": {
+    "definition": "share of unique tracks that appear exactly once",
+    "single_play_tracks": 603,
+    "unique_tracks": 835,
+    "percent": 72.2156
+  },
+  "session_diversity": {
+    "session_gap_minutes": 30,
+    "session_count": 188,
+    "average_tracks_per_session": 10.1915,
+    "average_unique_tracks_per_session": 10.1383,
+    "average_unique_track_ratio": 0.9961,
+    "average_unique_track_percent": 99.6125
+  }
+}
