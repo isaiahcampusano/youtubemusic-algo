@@ -1,0 +1,11 @@
+# Google Takeout archives and extracted private account data
+takeout-*.zip
+*.takeout.zip
+data/raw/
+data/private/
+private_takeout/
+
+# Local Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
