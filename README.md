@@ -32,4 +32,22 @@ Deliverable: A playlist generator that shows "what a less conservative algorithm
 
 - deepseek has the instructions for how i can track my own youtube data
 
+- Codex Prompt / Plan:
+
+You have full read/write access to this repository. Locate the YouTube Music listening history CSV file (search the root directory or use glob to find any .csv file if the name is unknown). Do not build or intake new information—we are purely evaluating the existing data.
+
+Write and execute a single Python script that loads this CSV, parses the timestamps, and calculates the baseline metrics previously discussed. Specifically:
+
+Data Loading & Inspection – Print the column names and first 5 rows to confirm the schema (track, artist, timestamp, etc.).
+Repetition Rate – Calculate total plays divided by total unique tracks.
+Repeat Gaps – For each track played more than once, compute the average time (in hours/days) between consecutive replays.
+Top-Track Concentration – Calculate what percentage of total streams are occupied by the pipeline #1, #5, and #10 most-played tracks.
+Discovery Rate – Calculate the percentage of tracks that appear only once in the entire dataset.
+Session Diversity – Define a session as plays occurring within 30 minutes of each other (gap > 30 min = new session). For each session, calculate the average number of tracks per session and the average ratio of unique tracks per session (unique/total).
+Formatted Output – Print all results clearly to the terminal in a human-readable summary.
+Save Artifact – Write the final calculated metrics to a new JSON file named analysis_baseline.json in the repo root for future reference.
+Execute the script immediately and show me the terminal output.
+
+
+
   
