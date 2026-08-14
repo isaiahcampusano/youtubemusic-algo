@@ -1,53 +1,78 @@
 # youtubemusic-algo
-i keep getting the same songs recommended and not receiving any adjacent songs like i would in infinite play using apple music
 
-turns out its baked in its loss functions
--im thinking this means that they minimize the loss of having someone just stop listening to the next song so they know what you want 
+An evidence-first exploration of a personal question:
 
-the loss function is understandable but there is a negative externality for a user who spends an afternoon playing their mix
+> Why does YouTube Music repeat familiar tracks, and what would a
+> less-conservative playlist policy look like on my own listening history?
 
-if you really want this: 
+## What this project can and cannot establish
 
-1. 2016 Deep Neural Networks paper, 2019 Multitask Ranking System paper.
+Google Takeout gives us a record of consumption. It does **not** include the
+recommendations that were shown but ignored, their ranks, the candidate pool,
+model features, or YouTube's loss function.
 
+That means this repository can measure repeat behavior in one account and test
+alternative playlist policies offline. It cannot reverse engineer or prove
+YouTube Music's production algorithm from Takeout alone.
 
+## Current dataset
 
-Phase 2: Data setup (1–2 weeks)
-Export your history via Google Takeout (YouTube Music data)
-Set up enrichment: Write a script to pull metadata from Spotify API and MusicBrainz for every track
-Explore public datasets: Grab LFM-1b or Million Song Dataset for collaborative filtering baseline
+The first public dataset is derived from a Google Takeout export created on
+July 29, 2026.
 
-Deliverable: A cleaned dataset of your listening history + rich features, ready for modeling.
+- 1,916 events explicitly labeled `YouTube Music`
+- 835 unique video IDs
+- 310 events matching 62 tracks in the exported music library
+- relative timing and chronological order retained
+- absolute dates and unrelated Google/YouTube activity removed
 
-Phase 3: Build the alternative (3–4 weeks)
-Candidate generation: Train an item-based collaborative filtering model (I'd start with LightFM in Python)
-Ranking layer: XGBoost ranker with similarity, novelty bonus, time-since-last-play, etc.
-Diversity post-processing: Use a simple diversity constraint (e.g., MMR or a DPP library)
-Offline evaluation: Compute Recall@k, NDCG, catalog coverage on held-out data
+Files:
 
-Deliverable: A playlist generator that shows "what a less conservative algorithm would recommend" without you ever listening to anything new
+- `data/public/listening_events.csv`: event sequence for repetition, recency,
+  novelty, and session analysis
+- `data/public/track_summary.csv`: one row per track with play counts and
+  first/last positions
 
+The raw Takeout ZIP is deliberately not committed because this is a public
+repository.
 
-#first deliverable
+## Build the CSV files
 
-- deepseek has the instructions for how i can track my own youtube data
+Python 3.10+ is enough; the pipeline uses only the standard library.
 
-- Codex Prompt / Plan:
+```powershell
+python pipeline.py "C:\path\to\takeout-YYYYMMDDTHHMMSSZ-1-001.zip"
+```
 
-You have full read/write access to this repository. Locate the YouTube Music listening history CSV file (search the root directory or use glob to find any .csv file if the name is unknown). Do not build or intake new information—we are purely evaluating the existing data.
+The command reads the ZIP without extracting it and writes both CSV files to
+`data/public/`.
 
-Write and execute a single Python script that loads this CSV, parses the timestamps, and calculates the baseline metrics previously discussed. Specifically:
+## Published event columns
 
-Data Loading & Inspection – Print the column names and first 5 rows to confirm the schema (track, artist, timestamp, etc.).
-Repetition Rate – Calculate total plays divided by total unique tracks.
-Repeat Gaps – For each track played more than once, compute the average time (in hours/days) between consecutive replays.
-Top-Track Concentration – Calculate what percentage of total streams are occupied by the pipeline #1, #5, and #10 most-played tracks.
-Discovery Rate – Calculate the percentage of tracks that appear only once in the entire dataset.
-Session Diversity – Define a session as plays occurring within 30 minutes of each other (gap > 30 min = new session). For each session, calculate the average number of tracks per session and the average ratio of unique tracks per session (unique/total).
-Formatted Output – Print all results clearly to the terminal in a human-readable summary.
-Save Artifact – Write the final calculated metrics to a new JSON file named analysis_baseline.json in the repo root for future reference.
-Execute the script immediately and show me the terminal output.
+| Column | Meaning |
+| --- | --- |
+| `event_index` | Chronological position, starting at 1 |
+| `relative_day` | Days since the first retained event |
+| `seconds_since_previous` | Gap from the preceding retained event |
+| `hour_utc` | UTC hour, with the calendar date removed |
+| `weekday_utc` | UTC weekday |
+| `video_id` | Public YouTube video identifier |
+| `track_title` | Title recorded by Takeout |
+| `channel_name` | Public channel/artist label recorded by Takeout |
+| `in_music_library` | Whether the video ID appears in the exported library |
 
+## Research direction
 
+1. Describe the observed sequence: concentration, repeat gaps, catalog coverage,
+   and session-level diversity.
+2. Create transparent baselines such as most-played, recency-aware, and
+   item-to-item co-occurrence.
+3. Add controlled exploration using a novelty bonus or maximum marginal
+   relevance.
+4. Evaluate with temporal holdouts and clearly separate observed behavior from
+   claims about YouTube's internal system.
 
-  
+Spotify audio-feature enrichment is not part of this pipeline. Spotify
+deprecated its audio-features endpoint for new use cases, and Spotify content
+should not be used to train an ML model. Future metadata work should use
+sources whose access and licensing fit the research purpose.
